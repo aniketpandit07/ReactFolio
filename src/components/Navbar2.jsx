@@ -35,7 +35,7 @@ const Navbar2 = () => {
                     <div className="  container px-4 mx-auto flex flex-wrap items-center justify-between">
                         <div className="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
 
-                            <Link to="home"> <img className=" w-16 hover:scale-110 duration-200" src={logo} alt="" /> </Link>
+                            <Link to="home"> <img className=" w-[28px] hover:scale-110 duration-200" src={logo} alt="" /> </Link>
 
                         </div>
 

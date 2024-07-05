@@ -26,21 +26,22 @@ const Technology = () => {
          
           {SKILLS.tech1.map((tech1, index) => (
 
-            <span key={index} className="mr-2 rounded  px-2 py-1 text-2xl font-medium text-slate-900 border-2 border-slate-300">{tech1}</span>
+            <span key={index} className="mr-2 rounded  px-2 py-1 md:text-2xl  text-slate-900 border-2 border-slate-300 ">{tech1}</span>
           ))}
         </div>
+
         <div className="flex flex-wrap gap-4 justify-center">
          
           {SKILLS.tech2.map((tech2, index) => (
 
-            <span key={index} className="mr-2 rounded  px-2 py-1 text-2xl font-medium text-slate-900 border-2 border-slate-300">{tech2}</span>
+            <span key={index} className="mr-2 rounded  px-2 py-1 md:text-2xl  text-slate-900 border-2 border-slate-300">{tech2}</span>
           ))}
         </div>
         <div className="flex flex-wrap gap-4 justify-center">
          
           {SKILLS.tech3.map((tech3, index) => (
 
-            <span key={index} className="mr-2 rounded  px-2 py-1 text-2xl font-medium text-slate-900 border-2 border-slate-300">{tech3}</span>
+            <span key={index} className="mr-2 rounded  px-2 py-1 md:text-2xl  text-slate-900 border-2 border-slate-300">{tech3}</span>
           ))}
         </div>
         

@@ -12,7 +12,7 @@ const Projects = () => {
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="overflow-hidden">
-            <div key={index} className={`p-12 mb-8 flex flex-wrap gap-8 lg:justify-evenly ${PROJECTS[index].color}`}>
+            <div key={index} className={`p-4 mb-8 flex flex-wrap gap-4 lg:justify-evenly ${PROJECTS[index].color}`}>
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -100 }}
@@ -38,13 +38,16 @@ const Projects = () => {
 
                 {/* <p className="mb-6 text-amber-500 font-semibold"> <Link to="/"> Read More...</Link></p> */}
 
+                <div className="flex flex-wrap gap-4 justify-start">
                 {project.technologies.map((tech, index) => (
 
                   <span key={index} className=" mr-2 rounded border-2 border-slate-300 px-2 text-sm font-medium text-slate-900">{tech}</span>
                 ))}
+                </div>
 
                 <div className="mt-8 flex">
-                  <button type="button" className=" flex bg-amber-50 px-6 py-2 border  border-black shadow-[-5px_5px_0px_0px_#1a202c] hover:shadow-none delay-100 duration-100 gap-2">View Project<span className="my-auto "><HiEye /></span> </button></div>
+                  <button type="button" className=" flex bg-amber-50 px-6 py-2 border  border-black shadow-[-5px_5px_0px_0px_#1a202c] hover:shadow-none delay-100 duration-100 gap-2">View Project<span className="my-auto "><HiEye /></span> </button>
+                </div>
               </motion.div>
 
 

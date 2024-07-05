@@ -9,8 +9,8 @@ const container = (delay) => ({
 })
 const Hero = () => {
   return (
-    <div className=' relative border-b pb-8 lg:mb-4 lg:pb-16  home'>
-      <div className='w-full '>
+    <div className=' relative border-b pb-8 lg:mb-4 lg:pb-16  home ' >
+      <div className='w-full p-8 '>
         <div className='flex flex-col items-center lg:items-start '>
           <h5 className='border-b  mb-4 font-light lg:text-xl mt-[120px]'>Hello, my name is</h5>
           <motion.h1

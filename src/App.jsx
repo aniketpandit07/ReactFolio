@@ -10,9 +10,9 @@ import Navbar2 from "./components/Navbar2";
 function App() {
   return (
     <>
-    <div className="overflow-x-hidden text-neutral-900  selection:bg-cyan-300 selection:text-cyan-900 scroll-smooth">
+    <div className=" overflow-x-hidden text-neutral-900  selection:bg-cyan-300 selection:text-cyan-900 scroll-smooth">
 
-      <div className="container  mx-auto px-8">
+      <div className=" mx-auto container ">
         <Navbar2 />
 
         {/* <Routes>
