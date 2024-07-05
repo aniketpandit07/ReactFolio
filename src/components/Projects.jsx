@@ -20,10 +20,10 @@ const Projects = () => {
                 className="object-contain">
                 <img
                   src={project.image}
-                  width={500}
+                  width={300}
                   
                   alt={project.title}
-                  className=" rounded border border-neutral-900 p-6"
+                  className=" rounded border border-neutral-900 p-6 md:w-[300px]"
                 />
               </motion.div>
 
