@@ -73,7 +73,7 @@ const Navbar2 = () => {
                     <div className="flex items-center py-2">
                         <div className="w-full relative flex lg:w-auto  px-12 lg:static lg:block lg:justify-start ">
 
-                            <Link to="home"> <img className="w-12 hover:scale-110 duration-200" src={logo} alt=""   /> </Link>
+                            <Link to="home"> <img className="w-12 hover:scale-110 duration-200" src={logo} alt="logo"   /> </Link>
 
                         </div>
 
